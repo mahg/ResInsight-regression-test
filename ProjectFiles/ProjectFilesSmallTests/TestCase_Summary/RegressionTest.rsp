@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ResInsightProject>
-    <DocumentFileName>D:/projects/ResInsight-Regression-Tests/ProjectFiles/ProjectFilesSmallTests/TestCase_Summary/RegressionTest.rsp</DocumentFileName>
+    <DocumentFileName>C:/gitroot-test/ResInsight-regression-test/ProjectFiles/ProjectFilesSmallTests/TestCase_Summary/RegressionTest.rsp</DocumentFileName>
     <ProjectFileVersionString>2016.11.flow.13</ProjectFileVersionString>
     <NextValidCaseId>1</NextValidCaseId>
     <NextValidCaseGroupId>0</NextValidCaseGroupId>
@@ -350,7 +350,7 @@
                             <FlipXAxis>False </FlipXAxis>
                             <FlipYAxis>False </FlipYAxis>
                             <FilesContainingFaults></FilesContainingFaults>
-                            <CaseFileName>D:/gitroot/opm-data/flow_diagnostic_test/eclipse-simulation/SIMPLE_2PH_W_FAULT_LGR.EGRID</CaseFileName>
+                            <CaseFileName>c:/gitroot-test/ResInsight-regression-test/ModelData/flow_diagnostics_test/SIMPLE_2PH_W_FAULT_LGR.EGRID</CaseFileName>
                             <FlowDiagSolutions>
                                 <FlowDiagSolution>
                                     <UserDescription>All Wells</UserDescription>
@@ -380,7 +380,7 @@
                         <GridSummaryCase>
                             <ShortName>SIMPLE_2PH_W_FAULT_LGR</ShortName>
                             <AutoShortyName>False </AutoShortyName>
-                            <SummaryHeaderFilename>D:/gitroot/opm-data/flow_diagnostic_test/eclipse-simulation/SIMPLE_2PH_W_FAULT_LGR.SMSPEC</SummaryHeaderFilename>
+                            <SummaryHeaderFilename>c:/gitroot-test/ResInsight-regression-test/ModelData/flow_diagnostics_test/SIMPLE_2PH_W_FAULT_LGR.SMSPEC</SummaryHeaderFilename>
                             <Associated3DCase>.. .. AnalysisModels 0 Reservoirs 0</Associated3DCase>
                             <CachedCasename>SIMPLE_2PH_W_FAULT_LGR</CachedCasename>
                         </GridSummaryCase>
@@ -9247,7 +9247,7 @@
     </LinkedViews>
     <CommandObjects/>
     <MultiSnapshotDefinitions/>
-    <TreeViewState>-1-10000;-1-100</TreeViewState>
+    <TreeViewState>-1-100000050;-1-1000000;-1-10000;-1-100</TreeViewState>
     <TreeViewCurrentModelIndexPath>0 0;0 0;0 0;5 0;0 0</TreeViewCurrentModelIndexPath>
     <PlotWindowTreeViewState>-1-100;-1-12000;-1-12010;-1-12020;-1-120</PlotWindowTreeViewState>
     <PlotWindowTreeViewCurrentModelIndexPath>2 0;0 0</PlotWindowTreeViewCurrentModelIndexPath>

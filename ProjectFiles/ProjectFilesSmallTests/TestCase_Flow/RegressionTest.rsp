@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ResInsightProject>
-    <DocumentFileName>D:/projects/ResInsight-Regression-Tests/ProjectFiles/ProjectFilesSmallTests/TestCase_Flow/RegressionTest.rsp</DocumentFileName>
+    <DocumentFileName>C:/gitroot-test/ResInsight-regression-test/ProjectFiles/ProjectFilesSmallTests/TestCase_Flow/RegressionTest.rsp</DocumentFileName>
     <ProjectFileVersionString>2016.11.flow.13</ProjectFileVersionString>
     <NextValidCaseId>1</NextValidCaseId>
     <NextValidCaseGroupId>0</NextValidCaseGroupId>
@@ -20,8 +20,8 @@
                                             <MainWindowID>0</MainWindowID>
                                             <xPos>0</xPos>
                                             <yPos>0</yPos>
-                                            <Width>914</Width>
-                                            <Height>1001</Height>
+                                            <Width>977</Width>
+                                            <Height>594</Height>
                                             <IsMaximized>True </IsMaximized>
                                         </MdiWindowController>
                                     </WindowController>
@@ -362,8 +362,8 @@
                                             <MainWindowID>0</MainWindowID>
                                             <xPos>0</xPos>
                                             <yPos>0</yPos>
-                                            <Width>914</Width>
-                                            <Height>1001</Height>
+                                            <Width>977</Width>
+                                            <Height>594</Height>
                                             <IsMaximized>True </IsMaximized>
                                         </MdiWindowController>
                                     </WindowController>
@@ -715,8 +715,8 @@
                                             <MainWindowID>0</MainWindowID>
                                             <xPos>0</xPos>
                                             <yPos>0</yPos>
-                                            <Width>914</Width>
-                                            <Height>1001</Height>
+                                            <Width>977</Width>
+                                            <Height>594</Height>
                                             <IsMaximized>True </IsMaximized>
                                         </MdiWindowController>
                                     </WindowController>
@@ -1110,7 +1110,7 @@
                             <FlipXAxis>False </FlipXAxis>
                             <FlipYAxis>False </FlipYAxis>
                             <FilesContainingFaults></FilesContainingFaults>
-                            <CaseFileName>D:/gitroot/opm-data/flow_diagnostic_test/eclipse-simulation/SIMPLE_2PH_W_FAULT_LGR.EGRID</CaseFileName>
+                            <CaseFileName>c:/gitroot-test/ResInsight-regression-test/ModelData/flow_diagnostics_test/SIMPLE_2PH_W_FAULT_LGR.EGRID</CaseFileName>
                             <FlowDiagSolutions>
                                 <FlowDiagSolution>
                                     <UserDescription>All Wells</UserDescription>
@@ -1140,7 +1140,7 @@
                         <GridSummaryCase>
                             <ShortName>SIMPLE_2PH_W_FAULT_LGR</ShortName>
                             <AutoShortyName>False </AutoShortyName>
-                            <SummaryHeaderFilename>D:/gitroot/opm-data/flow_diagnostic_test/eclipse-simulation/SIMPLE_2PH_W_FAULT_LGR.SMSPEC</SummaryHeaderFilename>
+                            <SummaryHeaderFilename>c:/gitroot-test/ResInsight-regression-test/ModelData/flow_diagnostics_test/SIMPLE_2PH_W_FAULT_LGR.SMSPEC</SummaryHeaderFilename>
                             <Associated3DCase>.. .. AnalysisModels 0 Reservoirs 0</Associated3DCase>
                             <CachedCasename>SIMPLE_2PH_W_FAULT_LGR</CachedCasename>
                         </GridSummaryCase>
