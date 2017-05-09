@@ -238,7 +238,7 @@
 %! assert(nk == 9);
 %! assert(CellCenters1(62,30,1, 1), 3489.2, 0.1);
 %! assert(CellCenters1(62,30,1, 2), 1.5909e+004, 0.1);
-%! assert(CellCenters1(62,30,1, 3), -5458.8, 0.1);
+%! assert(CellCenters1(62,30,1, 3), 5458.8, 0.1);
 %! assert(CellCenters1 == CellCenters2);
 
 
@@ -252,7 +252,7 @@
 
 %! assert (rows(ActiveCellCenters1), rows(riGetActiveCellInfo()));
 %! assert (columns(ActiveCellCenters1) == 3);
-%! assert (ActiveCellCenters1(500,:) ,[3493.7,   9184.6,  -6074.4], [0.1, 0.1, 0.1]);
+%! assert (ActiveCellCenters1(500,:) ,[3493.7,   9184.6,  6074.4], [0.1, 0.1, 0.1]);
 %! assert (ActiveCellCenters1 == ActiveCellCenters2);
 %! assert (ActiveCellCenters1 == ActiveCellCenters3);
 
@@ -272,7 +272,7 @@
 %! assert(nk == 9);
 %! assert(CellCorners1(62,30,1, 1, 1), 3207.4, 0.1);
 %! assert(CellCorners1(62,30,1, 1, 2), 1.5781e+004, 1);
-%! assert(CellCorners1(62,30,1, 1, 3), -5466.1, 0.1);
+%! assert(CellCorners1(62,30,1, 1, 3), 5466.1, 0.1);
 %! assert (CellCorners1 == CellCorners2);
 
 
@@ -292,7 +292,7 @@
 
 %! assert(ActiveCellCorners1(500,1, 1), 3207.2, 0.1);
 %! assert(ActiveCellCorners1(500,1, 2), 9080.7, 0.1);
-%! assert(ActiveCellCorners1(500,1, 3), -6076.8, 0.1);
+%! assert(ActiveCellCorners1(500,1, 3), 6076.8, 0.1);
 %! assert (ActiveCellCorners1 , ActiveCellCorners2);
 %! assert (ActiveCellCorners1 , ActiveCellCorners3);
 %! assert (ActiveCellCorners1 , ActiveCellCorners4);
