@@ -2299,7 +2299,7 @@
                             <FlipXAxis>False </FlipXAxis>
                             <FlipYAxis>False </FlipYAxis>
                             <FilesContainingFaults></FilesContainingFaults>
-                            <CaseFileName>d:/gitroot/ResInsight-regression-test/ModelData/dual_porosity/DUALPORO_TEST.EGRID</CaseFileName>
+                            <CaseFileName>D:/gitroot/ResInsight-regression-test/ModelData/dual_porosity/DUALPORO_TEST.EGRID</CaseFileName>
                             <FlowDiagSolutions/>
                         </EclipseCase>
                     </Reservoirs>
@@ -2325,7 +2325,7 @@
                         <GridSummaryCase>
                             <ShortName>DUALPORO</ShortName>
                             <AutoShortyName>False </AutoShortyName>
-                            <SummaryHeaderFilename>d:/gitroot/ResInsight-regression-test/ModelData/dual_porosity/DUALPORO_TEST.SMSPEC</SummaryHeaderFilename>
+                            <SummaryHeaderFilename>D:/gitroot/ResInsight-regression-test/ModelData/dual_porosity/DUALPORO_TEST.SMSPEC</SummaryHeaderFilename>
                             <Associated3DCase>.. .. AnalysisModels 0 Reservoirs 0</Associated3DCase>
                             <CachedCasename>DUALPORO</CachedCasename>
                         </GridSummaryCase>

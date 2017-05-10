@@ -1801,7 +1801,7 @@
                             <FlipXAxis>False </FlipXAxis>
                             <FlipYAxis>False </FlipYAxis>
                             <FilesContainingFaults>D:/projects/ResInsight-Regression-Tests/ModelData/TEST10K_FLT_LGR_NNC/TEST10K_FLT_LGR_NNC.grdecl </FilesContainingFaults>
-                            <CaseFileName>d:/projects/ResInsight-Regression-Tests/ModelData/TEST10K_FLT_LGR_NNC/TEST10K_FLT_LGR_NNC.EGRID</CaseFileName>
+                            <CaseFileName>D:/projects/ResInsight-Regression-Tests/ModelData/TEST10K_FLT_LGR_NNC/TEST10K_FLT_LGR_NNC.EGRID</CaseFileName>
                             <FlowDiagSolutions/>
                         </EclipseCase>
                         <EclipseCase>
@@ -3790,7 +3790,7 @@
                             <FlipXAxis>False </FlipXAxis>
                             <FlipYAxis>False </FlipYAxis>
                             <FilesContainingFaults>D:/projects/ResInsight-Regression-Tests/ModelData/TEST10K_FLT_LGR_NNC/TEST10K_FLT_LGR_NNC.grdecl </FilesContainingFaults>
-                            <CaseFileName>d:/projects/ResInsight-Regression-Tests/ModelData/TEST10K_FLT_LGR_NNC/TEST10K_FLT_LGR_NNC.EGRID</CaseFileName>
+                            <CaseFileName>D:/projects/ResInsight-Regression-Tests/ModelData/TEST10K_FLT_LGR_NNC/TEST10K_FLT_LGR_NNC.EGRID</CaseFileName>
                             <FlowDiagSolutions/>
                         </EclipseCase>
                     </Reservoirs>

@@ -1110,7 +1110,7 @@
                             <FlipXAxis>False </FlipXAxis>
                             <FlipYAxis>False </FlipYAxis>
                             <FilesContainingFaults></FilesContainingFaults>
-                            <CaseFileName>c:/gitroot-test/ResInsight-regression-test/ModelData/flow_diagnostics_test/SIMPLE_2PH_W_FAULT_LGR.EGRID</CaseFileName>
+                            <CaseFileName>C:/gitroot-test/ResInsight-regression-test/ModelData/flow_diagnostics_test/SIMPLE_2PH_W_FAULT_LGR.EGRID</CaseFileName>
                             <FlowDiagSolutions>
                                 <FlowDiagSolution>
                                     <UserDescription>All Wells</UserDescription>
@@ -1140,7 +1140,7 @@
                         <GridSummaryCase>
                             <ShortName>SIMPLE_2PH_W_FAULT_LGR</ShortName>
                             <AutoShortyName>False </AutoShortyName>
-                            <SummaryHeaderFilename>c:/gitroot-test/ResInsight-regression-test/ModelData/flow_diagnostics_test/SIMPLE_2PH_W_FAULT_LGR.SMSPEC</SummaryHeaderFilename>
+                            <SummaryHeaderFilename>C:/gitroot-test/ResInsight-regression-test/ModelData/flow_diagnostics_test/SIMPLE_2PH_W_FAULT_LGR.SMSPEC</SummaryHeaderFilename>
                             <Associated3DCase>.. .. AnalysisModels 0 Reservoirs 0</Associated3DCase>
                             <CachedCasename>SIMPLE_2PH_W_FAULT_LGR</CachedCasename>
                         </GridSummaryCase>

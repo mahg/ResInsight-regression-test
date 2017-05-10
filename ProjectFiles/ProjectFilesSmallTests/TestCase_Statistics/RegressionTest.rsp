@@ -624,7 +624,7 @@
                                             <FlipXAxis>False </FlipXAxis>
                                             <FlipYAxis>False </FlipYAxis>
                                             <FilesContainingFaults></FilesContainingFaults>
-                                            <CaseFileName>d:/projects/ResInsight-Regression-Tests/ModelData/Case_with_10_timesteps/Real0/BRUGGE_0000.EGRID</CaseFileName>
+                                            <CaseFileName>D:/projects/ResInsight-Regression-Tests/ModelData/Case_with_10_timesteps/Real0/BRUGGE_0000.EGRID</CaseFileName>
                                             <FlowDiagSolutions/>
                                         </EclipseCase>
                                         <EclipseCase>
@@ -647,7 +647,7 @@
                                             <FlipXAxis>False </FlipXAxis>
                                             <FlipYAxis>False </FlipYAxis>
                                             <FilesContainingFaults></FilesContainingFaults>
-                                            <CaseFileName>d:/projects/ResInsight-Regression-Tests/ModelData/Case_with_10_timesteps/Real10/BRUGGE_0010.EGRID</CaseFileName>
+                                            <CaseFileName>D:/projects/ResInsight-Regression-Tests/ModelData/Case_with_10_timesteps/Real10/BRUGGE_0010.EGRID</CaseFileName>
                                             <FlowDiagSolutions/>
                                         </EclipseCase>
                                         <EclipseCase>
@@ -670,7 +670,7 @@
                                             <FlipXAxis>False </FlipXAxis>
                                             <FlipYAxis>False </FlipYAxis>
                                             <FilesContainingFaults></FilesContainingFaults>
-                                            <CaseFileName>d:/projects/ResInsight-Regression-Tests/ModelData/Case_with_10_timesteps/Real30/BRUGGE_0030.EGRID</CaseFileName>
+                                            <CaseFileName>D:/projects/ResInsight-Regression-Tests/ModelData/Case_with_10_timesteps/Real30/BRUGGE_0030.EGRID</CaseFileName>
                                             <FlowDiagSolutions/>
                                         </EclipseCase>
                                         <EclipseCase>
@@ -693,7 +693,7 @@
                                             <FlipXAxis>False </FlipXAxis>
                                             <FlipYAxis>False </FlipYAxis>
                                             <FilesContainingFaults></FilesContainingFaults>
-                                            <CaseFileName>d:/projects/ResInsight-Regression-Tests/ModelData/Case_with_10_timesteps/Real40/BRUGGE_0040.EGRID</CaseFileName>
+                                            <CaseFileName>D:/projects/ResInsight-Regression-Tests/ModelData/Case_with_10_timesteps/Real40/BRUGGE_0040.EGRID</CaseFileName>
                                             <FlowDiagSolutions/>
                                         </EclipseCase>
                                     </Reservoirs>
