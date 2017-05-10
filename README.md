@@ -5,8 +5,7 @@ Large binary files are stored using Git Large File Storage https://git-lfs.githu
 
 To checkout these large binary files, do the following:
 
-- Make sure git lfs is installed
-- `git lfs install`
+- Make sure git lfs is installed `git lfs install`
 - `git lfs checkout`
 
 ## Running regression tests
