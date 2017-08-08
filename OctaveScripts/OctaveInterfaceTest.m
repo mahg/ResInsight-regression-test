@@ -324,4 +324,39 @@
 %! WellStatuses2 = riGetWellStatus( WellNames1{1}, [1,3]);
 %! WellStatuses3 = riGetWellStatus(WellNames1{1});
 
+### Matrix[numConnections][2] riGetNNCConnections([CaseId])
+
+%!test
+%! printf("===== Testing ====> riGetNNCConnections\n");
+%! connections = riGetNNCConnections();
+%! [numConnections, numColumns] = size(connections);
+%! assert (numConnections, 151);
+%! assert (numColumns, 2);
+
+### Vector[PropertyInfo] riGetNNCPropertyNames([CaseId])
+
+%!test
+%! printf("===== Testing ====> riGetNNCPropertyNames\n");
+%! propertyNames = riGetNNCPropertyNames();
+%! assert (length(propertyNames), 1);
+%! assert (propertyNames(1).PropName, "TRAN");
+%! assert (propertyNames(1).PropType, "StaticNative");
+
+### riSetNNCProperty(Matrix[numNNCConnections][numTimeSteps], [CaseId], PropertyName, [TimeStepIndices])
+
+%!test
+%! printf("===== Testing ====> riSetNNCProperty\n");
+%! riSetNNCProperty(ones(151, 1), "TESTPROP");
+%! propertyNames = riGetNNCPropertyNames();
+%! assert (length(propertyNames), 2);
+%! assert (propertyNames(2).PropName, "TESTPROP");
+%! assert (propertyNames(2).PropType, "Generated");
+%! properties = riGetStaticNNCValues("TESTPROP");
+%! assert (length(properties), 151);
+%! riSetNNCProperty(ones(151, 11), "TESTDYNPROP");
+%! properties = riGetDynamicNNCValues("TESTDYNPROP");
+%! [numRow, numCol] = size(properties);
+%! assert (numRow, 151);
+%! assert (numCol, 11);
+
 endif
