@@ -1,0 +1,8 @@
+setExportFolder(type=SNAPSHOTS,  path="LoopExports")
+setExportFolder(type=PROPERTIES, path="LoopExports")
+
+exportSnapshots()
+setTimeStep(caseId=0, timeStep=10)
+exportSnapshots()
+exportProperty(caseId=0, property="PERMZ", type=STATIC_NATIVE)
+exportSnapshots()

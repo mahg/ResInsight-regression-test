@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ResInsight &bull; Batch test case report</title>
+    <style>
+table {
+  width: 100%;
+}
+th {
+  background-color: lightgray;
+}
+table.all-imgs img {
+  width: 100%;
+}
+h1 {
+  background-color: darkblue;
+  color: #fff;
+  padding: 1em;
+  margin: 0;
+}
+.image-slider {
+  position:relative;
+  display: inline-block;
+  line-height: 0;
+}
+.image-slider > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 25px;
+  max-width: 100%;
+  overflow: hidden;
+  resize: horizontal;
+}
+.image-slider > div:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 23px; 
+  height: 23px;
+  padding: 5px;
+  background: linear-gradient(-45deg, gray 50%, transparent 0);
+  background-clip: content-box;
+  cursor: ew-resize;
+  -webkit-filter: drop-shadow(0 0 6px black);
+  filter: drop-shadow(0 0 6px black);
+}
+.image-slider img {
+  user-select: none;
+  max-width: 1000px;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Side-by-side comparison</h1>
+    <table class="all-imgs">
+      <tbody>
+	<tr>
+          <th colspan="3">LoopExports/Real0--Brugge_0000_EGRID_View_1_PERMZ_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+          <td><img src="LoopExports/Real0--Brugge_0000_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_05_31-mai_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+          <td><img src="LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+          <td><img src="LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real10--Brugge_0010_EGRID_View_1_PERMZ_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+          <td><img src="LoopExports/Real10--Brugge_0010_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_05_31-mai_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+          <td><img src="LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+          <td><img src="LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real30--Brugge_0030_EGRID_View_1_PERMZ_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+          <td><img src="LoopExports/Real30--Brugge_0030_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_05_31-mai_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+          <td><img src="LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+          <td><img src="LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real40--Brugge_0040_EGRID_View_1_PERMZ_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+          <td><img src="LoopExports/Real40--Brugge_0040_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_05_31-mai_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+          <td><img src="LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+        </tr>	<tr>
+          <th colspan="3">LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><img src="BaseImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+          <td><img src="LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <h1>Slider comparison</h1>
+    <table>
+      <tbody>
+	<tr>
+          <th colspan="2">LoopExports/Real0--Brugge_0000_EGRID_View_1_PERMZ_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PERMZ_10_28-okt_1997.png"></div>
+            <img src="LoopExports/Real0--Brugge_0000_EGRID_View_1_PERMZ_10_28-okt_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_05_31-mai_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></div>
+            <img src="LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_05_31-mai_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></div>
+            <img src="LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_10_28-okt_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real0--Brugge_0000_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real10--Brugge_0010_EGRID_View_1_PERMZ_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PERMZ_10_28-okt_1997.png"></div>
+            <img src="LoopExports/Real10--Brugge_0010_EGRID_View_1_PERMZ_10_28-okt_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_05_31-mai_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></div>
+            <img src="LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_05_31-mai_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></div>
+            <img src="LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_10_28-okt_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real10--Brugge_0010_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real30--Brugge_0030_EGRID_View_1_PERMZ_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PERMZ_10_28-okt_1997.png"></div>
+            <img src="LoopExports/Real30--Brugge_0030_EGRID_View_1_PERMZ_10_28-okt_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_05_31-mai_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></div>
+            <img src="LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_05_31-mai_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></div>
+            <img src="LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_10_28-okt_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real30--Brugge_0030_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real40--Brugge_0040_EGRID_View_1_PERMZ_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PERMZ_10_28-okt_1997.png"></div>
+            <img src="LoopExports/Real40--Brugge_0040_EGRID_View_1_PERMZ_10_28-okt_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PERMZ_10_28-okt_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_05_31-mai_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></div>
+            <img src="LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_05_31-mai_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_05_31-mai_1997.png"></td>
+        </tr>
+	<tr>
+          <th colspan="2">LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_10_28-okt_1997.png</th>
+        </tr>
+        <tr>
+          <td><div class="image-slider">
+            <div><img src="BaseImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></div>
+            <img src="LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_10_28-okt_1997.png">
+          </div></td>
+          <td><img src="RegTestDiffImages/LoopExports/Real40--Brugge_0040_EGRID_View_1_PRESSURE_10_28-okt_1997.png"></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </body>
+</html>

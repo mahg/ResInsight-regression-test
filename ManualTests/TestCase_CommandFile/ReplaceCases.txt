@@ -1,0 +1,4 @@
+../../ModelData/Case_with_10_timesteps/Real0/Brugge_0000.EGRID
+../../ModelData/Case_with_10_timesteps/Real10/Brugge_0010.EGRID
+../../ModelData/Case_with_10_timesteps/Real30/Brugge_0030.EGRID
+../../ModelData/Case_with_10_timesteps/Real40/Brugge_0040.EGRID
